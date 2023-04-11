@@ -1,0 +1,57 @@
+body {
+  background-color: #599E9B; /* turquoise */
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+}
+
+.title {
+  animation: colorChange 5s infinite;
+  font-size: 60px;
+  text-align: center;
+}
+
+img {
+  width: 60%;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #D3F8E2; /* mint */
+  }
+  25% {
+    color: #E4C1F9; /* purple */
+  }
+  50% {
+    color: #F694C1; /* pink */
+  }
+  75% {
+    color: #EDE7B1; /* yellow */
+  }
+  100% {
+    color: #A9DEF9; /* blue */
+  }
+}
+
+label {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+#generate-btn {
+  font-size: 15px;
+}
+
+#output {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
